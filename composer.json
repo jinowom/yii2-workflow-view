@@ -1,0 +1,39 @@
+{
+	"name" : "jinowom/yii2-workflow-view",
+	"description" : "A simple widget to display your workflows",
+	"keywords" : [
+		"yii2",
+		"workflow",
+		"view",
+		"widget"
+	],
+	"homepage" : "http://www.yiiframework.com/",
+	"type" : "yii2-extension",
+	"license" : "BSD-3-Clause",
+	"support" : {
+		"issues" : "https://github.com/jinowom/yii2-workflow-view/issues",
+		"source" : "https://github.com/jinowom/yii2-workflow-view",
+		"email" : "chareler@163.com"
+	},
+	"minimum-stability" : "stable",
+	"require" : {
+		"php" : ">=5.4.0",
+		"yiisoft/yii2" : "*",
+		"jinowom/yii2-workflow" : "*",
+		"bower-asset/vis" : "*"
+	},
+	"config" : {
+		"process-timeout" : 1800
+	},
+	"autoload" : {
+		"psr-4" : {
+			"jinowom\\workflow\\view\\" : "src/"
+		}
+	},
+	"authors" : [{
+            "name": "charles lee",
+            "email": "chareler@163.com",
+            "homepage": "https://www.jinowom.com/"
+		}
+	]
+}
